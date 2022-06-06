@@ -5,7 +5,7 @@ const SignUp = () => {
   const registerPassword = useRef();
   const handleRegister = (e) => {
     e.preventDefault();
-    console.log(registerPassword.current.value, registerEmail.current.value);
+    console.log(registerEmail.current.value, registerPassword.current.value);
   };
 
   return (
