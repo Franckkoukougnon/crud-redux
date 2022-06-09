@@ -3,11 +3,11 @@ import "firebase/compat/auth";
 
 const app = firebase.initializeApp({
   apiKey: "AIzaSyD3mdqNmC75KxIvIrJfiuGV-6rsahuuoWU",
-  authDomain: "react-crud-kouk.firebaseapp.com",
-  projectId: "react-crud-kouk",
-  storageBucket: "react-crud-kouk.appspot.com",
-  messagingSenderId: "881203579825",
-  appId: "1:881203579825:web:b654c22ceb4be2252f8b90",
+  authDomain: "react-firebase-redux-97f70.firebaseapp.com ",
+  projectId: "react-firebase-redux-97f70 ",
+  storageBucket: "react-firebase-redux-97f70.appspot.com",
+  messagingSenderId: "879445570363",
+  appId: "1:879445570363:web:6fe651fc68c093191cfd1e ",
 });
 
 export const auth = app.auth();
