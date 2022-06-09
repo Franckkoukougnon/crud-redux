@@ -5,6 +5,7 @@ const SignUp = () => {
   const registerEmail = useRef();
   const registerPassword = useRef();
   const [displayName, setDisplayName] = useState();
+
   const handleRegister = (e) => {
     e.preventDefault();
 
